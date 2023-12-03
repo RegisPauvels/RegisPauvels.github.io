@@ -159,16 +159,6 @@ main{
     .card:hover .cardtexto{
         right: 0;
     }
-    .card .cardButton{
-        color: #f4f4f4;
-        background-color: #191919;
-        border: 2px solid #f4f4f4;
-        border-radius: 5px;
-        padding: 10px 20px;
-        cursor: pointer;
-    }
-
-
 .sobregatos{
     font-size: 2em;
 }
@@ -217,15 +207,18 @@ main{
     display: flex;
     justify-content: center;
 }
-    .FontButton{
-        color: #f4f4f4;
+    .button-link{
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
         background-color: #191919;
+        color: #f4f4f4;
         border: 2px solid #f4f4f4;
         border-radius: 5px;
-        padding: 10px 20px;
         cursor: pointer;
     }
-
 /*Essa parte e exclusiva para a geracao da neve*/
 **,*:after,*:before{
     -webkit-box-sizing: border-box;
