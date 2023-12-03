@@ -36,9 +36,6 @@ header{
     text-shadow: 2px 1px #ffffff;
 }
 .navegacao{ 
-    position: fixed;
-    top: 0;
-    right: 380px;
     width: 1000px;
     padding:auto;
     background: #b2b2b2;
