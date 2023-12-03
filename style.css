@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Grenze+Gotisch:wght@100&display=swap');
+a{
+    text-decoration:none;
+    color:#000000 ;
+}
+body{
+    background-color: #c6c3cc;
+    background-image: url(images/treesBack.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+img{
+    border-radius: 20px;
+}
+header{
+    display: block;
+    justify-content: center;
+}
+.cabecario{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 250px;
+    background-image: url(images/trees.jpg);
+    background-position: center;
+}
+.titulo h1{   
+    font-size: 5em;
+    font-family: 'Cinzel', serif;
+    color: #000000;
+    text-shadow: 2px 1px #ffffff;
+}
+#navegacao{ 
+    width: 1000px;
+    padding:auto;
+    /*background: linear-gradient(to left,#191919,#f4f4f4,#191919);*/
+    background: #b2b2b2;
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    text-shadow: 2px 1px #191919;
+}
+.nav{
+    box-sizing: border-box;
+    margin: 0;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 2px;
+    background-color: #f4f4f4 ;
+    transition: 50ms;
+}   
+    .nav:hover{
+        transform: scale(1.10);
+        background-color: #191919;
+        border: 2px solid #fffafa
+    }
+        .nav:hover a{
+            color: #f4f4f4;
+        }
+main{
+    font-family: 'Cinzel', serif;
+    color: #191919;
+}
+    main .container{
+    margin-top: 50px;   
+    }
+    .container .row .topico{
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+        text-shadow: 2px 2px #f4f4f4;
+    }
+
+        .row{
+            display: flex;
+            justify-content: center;
+        }
+.sobremim{
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    background-image:url(images/moon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 1s;
+    
+}
+    .sobremim:hover{
+        background-position: left;
+    }
+
+.trabalho p{
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    font-size: 2em;
+    background-image:url(images/moon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow-y: scroll ;
+    transition: 1s;
+    
+}   
+    .trabalho p:hover{
+        background-position: right;
+    }   
+    .trabalho p::-webkit-scrollbar {
+        display:none;
+    }
+    .pc{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .trabalho .seta{
+        box-sizing: border-box;
+        color: #f4f4f4;
+        background-color: #191919;
+        border: 2px solid #f4f4f4;
+        border-radius: 10px;
+        width: 200px;
+        height: 100px;
+        margin-top: 100px;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: -220px;
+
+    }
+
+.seriescards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animescards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 30px 50px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid white;
+    position: relative;
+    transition: 1s;
+}   
+    .card:hover {
+        transform: scale(1.10);
+    }
+    .card .cardtexto{
+        color: #f4f4f4;
+        background: #1919198c;
+        backdrop-filter: blur(5px);
+        padding: 25px;
+        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        position: absolute;
+    }
+    .card:hover .cardtexto{
+        right: 0;
+    }
+    .card .cardButton{
+        color: #f4f4f4;
+        background-color: #191919;
+        border: 2px solid #f4f4f4;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+
+.sobregatos{
+    font-size: 2em;
+}
+.mycats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+    .cardcat{
+        margin: 30px 20px;
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 8px solid white;
+        position: relative;
+        transition: 1s;
+    }
+        .cardcat:hover{
+            transform: scale(1.10);
+        }
+
+.setupcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+    .setupcard .list{
+        color: #f4f4f4;
+        background: #1919198c;
+        backdrop-filter: blur(5px);
+        padding: 25px;
+        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        position: absolute;
+    }   
+        .card:hover .list{
+            right: 0;
+        }
+
+/*Essa parte e exclusiva para a geracao da neve*/
+**,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*
+.containerneve{
+    height: 100hv;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.neve, .neve::before, .neve::after {
+    position: fixed;
+    top: -600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: 
+    radial-gradient(4px 4px at 100px 50px,#fff, transparent),
+    radial-gradient(6px 6px at 200px 150px,#fff, transparent),
+    radial-gradient(3px 3px at 300px 250px,#fff 50%, transparent),
+    radial-gradient(4px 4px at 400px 350px,#fff 50%, transparent),
+    radial-gradient(6px 6px at 500px 100px,#fff 50%, transparent),
+    radial-gradient(3px 3px at 50px 200px,#fff 50%, transparent),
+    radial-gradient(4px 4px at 150px 300px,#fff 50%, transparent),
+    radial-gradient(6px 6px at 250px 400px,#fff 50%, transparent),
+    radial-gradient(3px 3px at 350px 500px,#fff 50%, transparent);
+    background-size: 650px 650px;
+    animation: caineve 10s linear infinite;
+    content: "";
+    pointer-events: none;
+}
+
+.neve::after {
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-duration: 6s;
+    animation-direction: reverse;
+    pointer-events: none;
+}
+
+.neve::before {
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-duration: 9s;
+    animation-direction: reverse;
+    pointer-events: none;
+}
+
+@keyframes caineve {
+    from {
+        transform: translateY(0px);
+        pointer-events: none;
+    }
+
+    to {
+        transform: translateY(650px);
+        pointer-events: none;
+    }
+}
